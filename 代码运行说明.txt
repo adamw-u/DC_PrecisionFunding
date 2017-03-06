@@ -1,0 +1,10 @@
+程序依赖包pandas、numpy、sklearn、xgboost、imblearn。
+新建文件夹，文件夹路径对应程序中path="..."，将训练集train，测试集test放到新建文件夹下，运行顺序如下：
+①运行card.ipynb，生成carda.csv,cardb.csv,cardc.csv,cardd.csv四个新的数据表
+②运行card_feature.ipynb,生成card_data1.0219.csv，card_data2.0219.csv两个新的数据表
+③运行feature.ipynb,生成data0219.csv数据表
+④运行single_model.ipynb,即可生成本次比赛最优结果result0220.csv
+
+stacking文件夹下为本次比赛的模型融合方式，耗时较长，产生结果非最优，顺序如下，可以选择不运行：
+①stacking_to_csv.ipynb
+②satcking.ipynb
